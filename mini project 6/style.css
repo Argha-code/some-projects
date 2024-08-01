@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 2, 36, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(144, 47, 173);
+    background-image: url(https://media.istockphoto.com/id/918234134/photo/ombre-bob-hair-coloring-woman-beauty-portrait-of-blond-model-with-short-shiny-purple-hairstyle.jpg?s=612x612&w=0&k=20&c=bJjSzjCyLMBgutz9HcXDkB8VGMBnEjBHGQlxG0pzqWQ=);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(135, 196, 196, 0.404);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(0, 255, 76); */
+} 
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width:400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family: monument;
+    font-weight: 500;
+    line-height: 78%;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+
+}
+#small-img{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+   
+    transform: translate(0,-50%);
+    
+
+
+}
+
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right:-22.5%;
+   
+    /* transform-origin:0% 0% */
+  
+}
+#vertical-text h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: monument;
+    color: transparent;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#fff ;
+    
+}
+#nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    /* background-color: red; */
+    margin-bottom: 40%;
+    margin-right: 66%;
+   
+}
+#nav img {
+    height: 50px;
+}
+
+#nav h5{
+    font-size: 10px;
+    font-family: gilroy;
+    color: white;
+    padding-top: 20px;
+    
+}
